@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06_Conditionals", "06_Condi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IfStatements", "06_Conditionals\IfStatements\IfStatements.csproj", "{D536A970-0B1F-4E4A-9FF5-5EC200540A2C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ternaries", "06_Ternaries\Ternaries.csproj", "{01F2449F-35BB-4CB1-B955-858FFE40E3A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -50,6 +52,10 @@ Global
 		{D536A970-0B1F-4E4A-9FF5-5EC200540A2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D536A970-0B1F-4E4A-9FF5-5EC200540A2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D536A970-0B1F-4E4A-9FF5-5EC200540A2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01F2449F-35BB-4CB1-B955-858FFE40E3A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01F2449F-35BB-4CB1-B955-858FFE40E3A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01F2449F-35BB-4CB1-B955-858FFE40E3A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01F2449F-35BB-4CB1-B955-858FFE40E3A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D536A970-0B1F-4E4A-9FF5-5EC200540A2C} = {1CC79007-B1E6-4126-94DE-7CEC8B2A176B}
