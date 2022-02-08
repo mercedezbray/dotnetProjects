@@ -1,5 +1,13 @@
 ﻿Console.WriteLine("What is your name?");
 string name = Console.ReadLine();
+
+string greeting = name switch 
+{
+    "Mercedez" => "Hello Mercedez",
+    _ => "Who are you?"
+};
+Console.WriteLine(greeting);
+
 switch(name)
 {
    case "Mercedez":
@@ -34,3 +42,19 @@ switch (feelingRating)
     Console.WriteLine("Sorry you am idiot, put a number 1-5!");
     break;
 }
+
+Console.WriteLine("How were you feeling yesterday on a scale of 1-5?");
+string ratingInput = Console.ReadLine();
+int yesterdayRating = int.Parse(ratingInput);
+
+string response = yesterdayRating switch
+{
+    1 => "Dang. Maybe today will suck less ass",
+    2 => "Oh, sorry to hear your day was shite",
+    3 => "Noice, sounds pretty okayish",
+    4 => "Sweet buscuits! We love!",
+    5 => "Siiiiiiiick, SMASHING!",
+    _ => "You didn't do it right you fat bitch"
+};
+
+Console.WriteLine(response);
